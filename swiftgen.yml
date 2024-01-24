@@ -1,0 +1,22 @@
+input_dir: WeatherApp/Resources/
+output_dir: WeatherApp/Generated/
+
+xcassets:
+  inputs:
+    - Assets.xcassets
+  outputs:
+    templateName: swift5
+    params:
+       forceProvidesNamespaces: true
+       enumName: Assets
+       publicAccess: true
+    output: Assets.swift
+
+fonts:
+  inputs:
+    - Fonts
+  outputs:
+    templateName: swift5
+    params:
+       publicAccess: true
+    output: Fonts.swift
